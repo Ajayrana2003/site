@@ -45,7 +45,7 @@
     height: 80px;
     width: 80px;
 }
-.Servicecard{
+.serviceCard{
     margin: 5px 5px 5px 5px;
     height:22rem ;
     padding: 60px 30px 60px 30px;
@@ -59,7 +59,7 @@
     box-shadow: 0 0 16px 0 rgb(4, 55, 105, 0.2);
     
 }
-ServiceName{
+.ServiceName{
     color: #051b35;
     margin-top: 1rem;
     font-family: 'Raleway',sans-serif;
