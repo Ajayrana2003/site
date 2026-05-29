@@ -3,8 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import designIcon from '../../asset/image/design.png';
 import ecommerceIcon from '../../asset/image/ecommerce.png';
 import webIcon from '../../asset/image/web.png';
-import '../../asset/css/custom.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export class Services extends Component {
   render() {
@@ -20,7 +19,7 @@ export class Services extends Component {
                 <div className='serviceCard text-centre'>
                     <img className="ecommerceIcon" src={ecommerceIcon}/>
                     <h1 className='ServiceName' >Ecommerce</h1>
-                    <p className='ServiceDescription'>I will design and develop ecommerce online store website</p>
+                    <p className='ServiceDescription' >I will design and develop ecommerce online store website</p>
                 </div>
                     
                     </Col>
