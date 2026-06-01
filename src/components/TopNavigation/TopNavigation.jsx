@@ -4,6 +4,7 @@ import whiteLogo from '../../asset/image/logo_white.png';
 import blackLogo from '../../asset/image/logo_black.png';
 import '../../asset/css/custom.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { NavLink } from "react-router-dom"
 
 export class TopNavigation extends Component {
     constructor(){
@@ -34,6 +35,9 @@ export class TopNavigation extends Component {
      componentDidMount(){
         window.addEventListener('scroll',this.onScroll)
      }
+     componentWillUnmount(){
+    window.removeEventListener('scroll', this.onScroll)
+}
 
 
 
@@ -44,19 +48,19 @@ export class TopNavigation extends Component {
 
          <Navbar className={this.state.navBarBack} collapseOnSelect  fixed="top"  expand="lg" variant={this.state.navVariant}>
       <Container>
-        <Navbar.Brand className={this.state.navBarTitle} href="#home"><img src={this.state.navBarLogo} /></Navbar.Brand>
+        <Navbar.Brand className={this.state.navBarTitle} to="/"><img src={this.state.navBarLogo} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             
           </Nav>
           <Nav>
-            <Nav.Link className={this.state.navBarItem} href="#deets">HOME</Nav.Link>
-            <Nav.Link className={this.state.navBarItem} href="#deets">ABOUT</Nav.Link>
-            <Nav.Link className={this.state.navBarItem} href="#deets">SERVICE</Nav.Link>
-            <Nav.Link className={this.state.navBarItem} href="#deets">COURSES</Nav.Link>
-            <Nav.Link className={this.state.navBarItem} href="#deets">PORTFOLIO</Nav.Link>
-            <Nav.Link className={this.state.navBarItem} href="#deets">CONTACT US</Nav.Link>
+           <Nav.Link><NavLink className={this.state.navBarItem} to="/">HOME</NavLink></Nav.Link> 
+          <Nav.Link>  <NavLink className={this.state.navBarItem} to="/about">ABOUT</NavLink></Nav.Link> 
+          <Nav.Link>  <NavLink className={this.state.navBarItem} to="/service">SERVICE</NavLink></Nav.Link> 
+          <Nav.Link>  <NavLink className={this.state.navBarItem} to="/course">COURSES</NavLink></Nav.Link> 
+          <Nav.Link>  <NavLink className={this.state.navBarItem} to="/portfolio">PORTFOLIO</NavLink></Nav.Link> 
+          <Nav.Link>  <NavLink className={this.state.navBarItem} to="/contact">CONTACT US</NavLink></Nav.Link> 
           </Nav>
         </Navbar.Collapse>
       </Container>

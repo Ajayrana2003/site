@@ -1,0 +1,23 @@
+import React, { Component, Fragment } from 'react'
+import TopNavigation from "../components/TopNavigation/TopNavigation"
+import PageTop from '../components/PageTop/PageTop'
+import AboutMe from '../components/AboutMe/AboutMe'
+import AboutDescription from '../components/AboutDescription/AboutDescription'
+import Footer from '../components/Footer/Footer'
+
+export class AboutPage extends Component {
+  render() {
+    return (
+      <Fragment>
+        <TopNavigation />
+        <PageTop pagetitle='About Us'></PageTop>
+        <AboutMe></AboutMe>
+            <AboutDescription/>
+            <Footer></Footer>
+        
+      </Fragment>
+    )
+  }
+}
+
+export default AboutPage

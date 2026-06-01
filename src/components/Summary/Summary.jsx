@@ -78,13 +78,13 @@ class Summary extends Component {
             <Card.Body>
 
                 <Card.Title className='cardTitle'>WHAT I HAVE ACHIEVED</Card.Title>
-                <Card.Text>
+                <div>
                     <p className='cardSubTitle text-justify'><FontAwesomeIcon  className='iconBullent' icon={faCheckSquare}/> Requirement Gathering</p>
                     <p className='cardSubTitle text-justify'><FontAwesomeIcon className='iconBullent' icon={faCheckSquare}/> System Analysis</p>
                     <p className='cardSubTitle text-justify'><FontAwesomeIcon className='iconBullent' icon={faCheckSquare}/> Coding Testing</p>
                    <p className='cardSubTitle text-justify'><FontAwesomeIcon className='iconBullent' icon={faCheckSquare}/> Implementation</p>
                    
-                </Card.Text>
+                </div>
             </Card.Body>
 
 

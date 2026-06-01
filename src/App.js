@@ -1,16 +1,19 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./router/AppRouter";
+
 
 
 
 function App() {
   return (
-    <div >
-      <HomePage></HomePage>
-      
-     
-      
-    </div>
+    <BrowserRouter>
+    
+    <AppRouter></AppRouter>
+    
+    </BrowserRouter>
+
+   
   );
 }
 

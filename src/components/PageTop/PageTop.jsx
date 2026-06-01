@@ -12,7 +12,7 @@ import { Col, Container, Row, Button } from 'react-bootstrap'
                     <Row>
                         <Col className="text-center">
                         
-                        <h4 className="topPageTitle">About Us</h4>
+                        <h4 className="topPageTitle">{this.props.pagetitle}</h4>
 
                         
                         
