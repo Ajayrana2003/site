@@ -10,6 +10,7 @@ import Video from "../components/Video/Video";
 import ClientReview from "../components/ClientReview/ClientReview";
 import AboutMe from "../components/AboutMe/AboutMe";
 import Footer from "../components/Footer/Footer";
+import Welcome from '../components/Welcome/Welcome';
 
 
 
@@ -17,8 +18,9 @@ import Footer from "../components/Footer/Footer";
   render() {
     return (
       <Fragment>
-         <TopNavigation></TopNavigation>
+         <TopNavigation title="Easy Learning Page"/>
       <TopBanner></TopBanner>
+      <Welcome></Welcome>
       <Services></Services>
       <Analysis></Analysis>
       <Summary></Summary>

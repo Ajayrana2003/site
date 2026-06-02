@@ -1,20 +1,20 @@
 import React, { Component, Fragment } from 'react'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
 import PageTop from '../components/PageTop/PageTop'
+import TremsDescription from '../components/TremsDescription/TremsDescription'
 import Footer from '../components/Footer/Footer'
-import ContectSec from '../components/ContectSec/ContectSec'
 
-class ContactPage extends Component {
+ class TremsPage extends Component {
   render() {
     return (
       <Fragment>
-        <TopNavigation title="Contact Us"/>
-        <PageTop pagetitle="Contact Us"></PageTop>
-        <ContectSec></ContectSec>
+        <TopNavigation title="Trems and Condition"></TopNavigation>
+        <PageTop pagetitle="Trems and Condition"></PageTop>
+        <TremsDescription></TremsDescription>
         <Footer></Footer>
       </Fragment>
     )
   }
 }
 
-export default ContactPage
+export default TremsPage

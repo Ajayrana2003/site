@@ -2,7 +2,8 @@ import React, { Component, Fragment } from 'react'
 import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVideoSlash } from '@fortawesome/free-solid-svg-icons'
-import ReactPlayer from 'react-player'
+import 'video-react/dist/video-react.css'
+import {Player,  BigPlayButton } from 'video-react'
 
 export class Video extends Component {
 
@@ -49,16 +50,13 @@ export class Video extends Component {
 
 
         <Modal size='lg' show={this.state.show} onHide={this.modalClose}>
-        <Modal.Header closeButton>
-          
-        </Modal.Header>
+       
         <Modal.Body>
-            <ReactPlayer
-  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-  controls
-  width="100%"
-  height="400px"
-/>
+          <Player
+  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
+
+  <BigPlayButton position="center"></BigPlayButton>
+</Player>
 
         </Modal.Body>
         <Modal.Footer>

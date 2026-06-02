@@ -102,6 +102,8 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <a className='courseViewMore float-start' href='#' >View Details</a>
                     </Col>
 
+
+
                 </Row>
                 
                 </Col>

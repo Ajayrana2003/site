@@ -12,7 +12,7 @@ import TopNavigation from '../components/TopNavigation/TopNavigation'
   render() {
     return (
       <Fragment>
-        <TopNavigation></TopNavigation>
+        <TopNavigation title="All Courses"/>
         <PageTop pagetitle="All Courses"></PageTop>
         <AllCourses />
         <Footer></Footer>

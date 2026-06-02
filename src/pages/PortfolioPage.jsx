@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
   render() {
     return (
       <Fragment>
-        <TopNavigation></TopNavigation>
+        <TopNavigation title="Our Portfolio"/>
         <PageTop pagetitle="Our Portfolio">  </PageTop>
         <AllProjects></AllProjects>
         <Footer></Footer>

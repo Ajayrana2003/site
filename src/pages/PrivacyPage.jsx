@@ -1,0 +1,20 @@
+import React, { Component, Fragment } from 'react'
+import TopNavigation from '../components/TopNavigation/TopNavigation'
+import PageTop from '../components/PageTop/PageTop'
+import PrivacyDescription from '../components/PrivacyDescription/PrivacyDescription'
+import Footer from '../components/Footer/Footer'
+
+ class PrivacyPage extends Component {
+  render() {
+    return (
+      <Fragment>
+        <TopNavigation title="Privacy And Policy"></TopNavigation>
+        <PageTop pafetitle="Privacy And Policy"></PageTop>
+        <PrivacyDescription></PrivacyDescription>
+        <Footer></Footer>
+      </Fragment>
+    )
+  }
+}
+
+export default PrivacyPage
