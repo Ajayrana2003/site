@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
 import PageTop from '../components/PageTop/PageTop'
+import CourseDetails from '../components/CourseDetails/CourseDetails'
 import Footer from '../components/Footer/Footer'
-import ContectSec from '../components/ContectSec/ContectSec'
 
-class ContactPage extends Component {
+ class CourseDetailsPage extends Component {
   
   componentDidMount(){
     window.scroll(0,0)
@@ -13,14 +13,17 @@ class ContactPage extends Component {
 
   render() {
     return (
+
       <Fragment>
-        <TopNavigation title="Contact Us"/>
-        <PageTop pagetitle="Contact Us"></PageTop>
-        <ContectSec></ContectSec>
+        <TopNavigation totle="Course Details"></TopNavigation>
+        <PageTop pageTitle="About Us"></PageTop>
+        <CourseDetails></CourseDetails>
         <Footer></Footer>
+
       </Fragment>
+     
     )
   }
 }
 
-export default ContactPage
+export default CourseDetailsPage

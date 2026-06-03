@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
  class AllCourses extends Component {
   render() {
@@ -21,7 +22,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <Col lg={6} md={6} sm={12}>
                     <h5 className=' text-justify serviceName'>Laravel 12 </h5>
                     <p className=' text-justify serviceDescription'>Laravel 12 - Build Advance Ecommerce Projects A-Z</p>
-                    <a className='courseViewMore float-start' href='#' >View Details</a>
+                    <Link className='courseViewMore float-start' to='/coursedetails' >View Details</Link>
                     </Col>
 
 
@@ -34,7 +35,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <Col lg={6} md={6} sm={12}>
                     <h5 className=' text-justify serviceName'>Laravel 12 </h5>
                     <p className=' text-justify serviceDescription'>Laravel 12 - Build Advance Ecommerce Projects A-Z</p>
-                    <a className='courseViewMore float-start' href='#' >View Details</a>
+                   <Link className='courseViewMore float-start' to='/coursedetails' >View Details</Link>
                     </Col>
 
 
@@ -53,7 +54,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <Col lg={6} md={6} sm={12}>
                     <h5 className=' text-justify serviceName'>Laravel 12 </h5>
                     <p className=' text-justify serviceDescription'>Laravel 12 - Build Advance Ecommerce Projects A-Z</p>
-                    <a className='courseViewMore float-start' href='#' >View Details</a>
+                    <Link className='courseViewMore float-start' to='/coursedetails' >View Details</Link>
                     </Col>
 
                 </Row>
@@ -71,7 +72,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <Col lg={6} md={6} sm={12}>
                     <h5 className=' text-justify serviceName'>Laravel 12 </h5>
                     <p className=' text-justify serviceDescription'>Laravel 12 - Build Advance Ecommerce Projects A-Z</p>
-                    <a className='courseViewMore float-start' href='#' >View Details</a>
+                   <Link className='courseViewMore float-start' to='/coursedetails' >View Details</Link>
                     </Col>
 
 
@@ -84,7 +85,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <Col lg={6} md={6} sm={12}>
                     <h5 className=' text-justify serviceName'>Laravel 12 </h5>
                     <p className=' text-justify serviceDescription'>Laravel 12 - Build Advance Ecommerce Projects A-Z</p>
-                    <a className='courseViewMore float-start' href='#' >View Details</a>
+                    <Link className='courseViewMore float-start' to='/coursedetails' >View Details</Link>
                     </Col>
 
 
@@ -99,7 +100,7 @@ import { Col, Container, Row } from 'react-bootstrap'
                     <Col lg={6} md={6} sm={12}>
                     <h5 className=' text-justify serviceName'>Laravel 12 </h5>
                     <p className=' text-justify serviceDescription'>Laravel 12 - Build Advance Ecommerce Projects A-Z</p>
-                    <a className='courseViewMore float-start' href='#' >View Details</a>
+                    <Link className='courseViewMore float-start' to='/coursedetails' >View Details</Link>
                     </Col>
 
 

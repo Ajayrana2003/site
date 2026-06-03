@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import projectDetails from '../../asset/image/pdetails.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheckSquare } from '@fortawesome/free-solid-svg-icons'
 
  class ProjectsDetails extends Component {
   render() {
@@ -21,6 +23,18 @@ import projectDetails from '../../asset/image/pdetails.png';
                         <h1 className="projectDetailsText">Education in continuing a proud tradition.</h1>
                         <p className='detailName'>The quick, brown fox jumps over a lazy dog. Djs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox wheps. Bawds jog, flick quartz, vex nymphs. waltz, bad nymph,</p>
                     </div>
+
+
+
+                    <p className='cardSubTitle text-justify ms-3'><FontAwesomeIcon  className='iconBullent' icon={faCheckSquare}/> Requirement Gathering</p>
+                     <p className='cardSubTitle text-justify ms-3'><FontAwesomeIcon  className='iconBullent' icon={faCheckSquare}/> Requirement Gathering</p>
+                    
+                     <p className='cardSubTitle text-justify ms-3'><FontAwesomeIcon  className='iconBullent' icon={faCheckSquare}/> Requirement Gathering</p>
+                    
+                     <p className='cardSubTitle text-justify ms-3'><FontAwesomeIcon  className='iconBullent' icon={faCheckSquare}/> Requirement Gathering</p>
+                    
+                     <p className='cardSubTitle text-justify ms-3'><FontAwesomeIcon  className='iconBullent' icon={faCheckSquare}/> Requirement Gathering</p>
+                    
                     
                     
                     </Col>

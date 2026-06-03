@@ -10,6 +10,7 @@ import Refundpage from '../pages/Refundpage';
 import TremsPage from '../pages/TremsPage';
 import ProjectDetailPage from '../pages/ProjectDetailPage';
 import PrivacyPage from '../pages/PrivacyPage';
+import CourseDetailsPage from '../pages/CourseDetailsPage';
 
  class AppRouter extends Component {
   render() {
@@ -29,6 +30,8 @@ import PrivacyPage from '../pages/PrivacyPage';
             <Route exact path="/trems" component={TremsPage} />
             <Route exact path="/privacy" component={PrivacyPage} />
             <Route exact path="/projectdetails" component={ProjectDetailPage} />
+             <Route exact path="/coursedetails" component={CourseDetailsPage} />
+
 
             
 

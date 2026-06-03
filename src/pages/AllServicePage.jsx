@@ -6,6 +6,12 @@ import ContectSec from '../components/ContectSec/ContectSec'
 import Footer from '../components/Footer/Footer'
 
 class AllServicepage extends Component {
+  
+  componentDidMount(){
+    window.scroll(0,0)
+  }
+
+
   render() {
     return (
       <Fragment>

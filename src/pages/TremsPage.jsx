@@ -5,6 +5,12 @@ import TremsDescription from '../components/TremsDescription/TremsDescription'
 import Footer from '../components/Footer/Footer'
 
  class TremsPage extends Component {
+  
+  componentDidMount(){
+    window.scroll(0,0)
+  }
+
+
   render() {
     return (
       <Fragment>
