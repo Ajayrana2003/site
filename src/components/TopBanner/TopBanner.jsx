@@ -1,8 +1,23 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row, Button } from 'react-bootstrap'
+import axios from 'axios';
 
 
 export class TopBanner extends Component {
+
+  componentDidMount(){
+    axios.get('http://127.0.0.1:8000/api/homepage/Title')
+    .then(function (response){
+      
+      console.log(response.data);
+    })
+    .catch(function(error) {
+      //
+      console.log(error);
+    }) 
+  }
+
+
   render() {
     return (
       <Fragment>

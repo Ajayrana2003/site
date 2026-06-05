@@ -26,6 +26,7 @@ export class Services extends Component {
                     <Col lg={4} md={6} sm={12}>
                 
                <div className='serviceCard text-centre'>
+                 <img className="ecommerceIcon" src={designIcon}/>
                     <h1 className='ServiceName' >Web Design</h1>
                     <p className='ServiceDescription'>Qualified web design and attractive effecty which catches visitir eye.</p>
                 </div>

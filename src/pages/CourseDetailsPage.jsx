@@ -15,7 +15,7 @@ import Footer from '../components/Footer/Footer'
     return (
 
       <Fragment>
-        <TopNavigation totle="Course Details"></TopNavigation>
+        <TopNavigation title="Course Details"/>
         <PageTop pageTitle="About Us"></PageTop>
         <CourseDetails></CourseDetails>
         <Footer></Footer>
